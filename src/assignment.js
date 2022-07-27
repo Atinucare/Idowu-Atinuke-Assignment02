@@ -20,6 +20,7 @@ const assignment = {};
     }
     return sum;
 }
+assignment.sumOfNumbers = sumOfNumbers;
 
 /**
  * Challenge - 2
@@ -40,7 +41,7 @@ function countEvenNumbers(arrayOfNumbers) {
     return count;
     
 }
-
+assignment.countEvenNumbers = countEvenNumbers;
 
 /**
  * Challenge - 3
@@ -64,6 +65,6 @@ function celsiusToFahrenheit(arrayOfNumbers) {
 
 // ========================
 // DO NOT EDIT THIS BLOCK
-module.exports = {assignment};
+module.exports = assignment;
 // ========================
 
